@@ -5,8 +5,8 @@
  * Object               : RecordType
  * Requirement          : Used
  * Purpose              : 1. Get Record Type Id by Name,
- *						  2. Get Record Type Name by Id
- *						  3. Get Record Type Ids of one Sobject
+ *	                  2. Get Record Type Name by Id
+ *			  3. Get Record Type Ids of one Sobject
  *                        4. Get Record Type Names of one Sobject
  * Refer classes        : 
  * Author               : Mouse Liu
@@ -62,7 +62,7 @@ public with sharing class UtilRecordType {
     public static String getRecordTypeIdByName(String sobjectName, 
     	String recordTypeName) {
 
-		populateRecordTypeMap(sobjectName);
+	populateRecordTypeMap(sobjectName);
         return recordTypeInfoByNameMap.get(recordTypeName).getRecordTypeId();
     }
 
