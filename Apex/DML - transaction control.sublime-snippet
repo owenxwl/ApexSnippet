@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+SavePoint sp = Database.setSavePoint();
+$0
+Database.rollback(sp);
+]]></content>
+	<tabTrigger>transaction control</tabTrigger>
+	<scope>source.java</scope>
+	<description>transaction control block</description>
+</snippet>

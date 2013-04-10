@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+/**********************************************************************************
+ * Name                 : ${1:Class-Name-or-Trigger-Name}Test
+ * Object               : ${2:Sobject-Name}
+ * Requirement          : 
+ * Purpose              : 
+ * Refer classes        : 
+ * Author               : Mouse Liu
+ * Create Date          : 
+ * Modify History       : 
+ *
+***********************************************************************************/
+@isTest
+private class ${1:Class-Name-or-Trigger-Name}Test {
+	public static testMethod void test${3:Method-Name}() {
+		$0
+	}
+}
+]]></content>
+	<tabTrigger>test class body</tabTrigger>
+	<scope>source.java</scope>
+	<description>test class body</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+public static ${1:RETURN-DATA-TYPE} ${2:METHOD-NAME}(${3:PARAMETERS}) {
+	$0
+}
+
+]]></content>
+	<tabTrigger>publicstaticmethod</tabTrigger>
+	<scope>source.java</scope>
+	<description>define a public static method</description>
+</snippet>

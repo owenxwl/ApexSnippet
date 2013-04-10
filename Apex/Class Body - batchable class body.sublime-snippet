@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+/**********************************************************************************
+ * Name                 : ${1:BATCHABLE-CLASS-NAME}
+ * Object               : ${2:SOBJECT-NAME}
+ * Requirement          : 
+ * Purpose              : 
+ * Refer classes        : 
+ * Author               : Mouse Liu
+ * Create Date          : 
+ * Modify History       : 
+ * 
+***********************************************************************************/
+global class ${1:BATCHABLE-CLASS-NAME} implements Database.Batchable<SObject> {
+    private String query;
+    
+    global ${1:BATCHABLE-CLASS-NAME}() {
+        $0
+    }
+    
+    global Database.QueryLocator start(Database.BatchableContext bc) {
+        
+    }
+    
+    global void execute(Database.BatchableContext BC, List<sObject> scope) {
+
+    }
+
+    global void finish(Database.BatchableContext bc) {
+
+    }
+}
+]]></content>
+	<tabTrigger>batchable class</tabTrigger>
+	<scope>source.java</scope>
+	<description>common batchable class body template</description>
+</snippet>

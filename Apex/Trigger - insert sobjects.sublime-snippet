@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+try {
+	insert ${1:sobjects};
+}
+catch (DMLException e) {
+	trigger.new[0].addError(e.getDMLMessage(0));
+	System.debug('${2:Class Name}.${3:Method Name} DML Exception: ' + e);
+}
+]]></content>
+	<tabTrigger>insert sobjects</tabTrigger>
+	<scope>source.java</scope>
+	<description>insert sobjects in trigger context</description>
+</snippet>

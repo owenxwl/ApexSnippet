@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+if (trigger.isAfter && trigger.isUpdate) {
+	$0
+}
+
+]]></content>
+	<tabTrigger>after update</tabTrigger>
+	<scope>source.java</scope>
+	<description>after update Block in trigger</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+for (${1:DATA-TYPE} variable : ${2:COLLECTOIN}) {
+	System.debug('Debug Output======> {' + variable + '}');
+}
+]]></content>
+	<tabTrigger>debug collection</tabTrigger>
+	<scope>source.java</scope>
+	<description>output all elements in collection</description>
+</snippet>

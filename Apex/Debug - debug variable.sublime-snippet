@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+System.debug('Debug Output ======> {' + $0 + '}');
+]]></content>
+	<tabTrigger>debug</tabTrigger>
+	<scope>source.java</scope>
+	<description>generate debug log</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Integer ${1:VARIABLE-NAME}Count = [SELECT COUNT() FROM ${2:SOBJECT-NAME} WHERE ${3:FILTER}];
+
+]]></content>
+	<tabTrigger>soql count</tabTrigger>
+	<scope>source.java</scope>
+	<description>get the total return sobject count by soql</description>
+</snippet>

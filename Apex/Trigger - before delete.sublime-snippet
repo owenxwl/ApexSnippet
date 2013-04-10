@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+if (trigger.isBefore && trigger.isDelete) {
+	$0
+}
+
+]]></content>
+	<tabTrigger>before delete</tabTrigger>
+	<scope>source.java</scope>
+	<description>Before delete Block in Trigger</description>
+</snippet>
