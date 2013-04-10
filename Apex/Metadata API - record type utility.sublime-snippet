@@ -94,9 +94,8 @@ public with sharing class UtilRecordType {
 
         List<SelectOption> optionList = new List<SelectOption>();
         for (String recordTypeId : recordTypeInfoByIdMap.keySet()) {
-
-        	optionList.add(new SelectOption(recordTypeId, 
-        		recordTypeInfoByIdMap.get(recordTypeId).getName()));
+	    optionList.add(new SelectOption(recordTypeId, 
+		recordTypeInfoByIdMap.get(recordTypeId).getName()));
         }
 
         return optionList;
